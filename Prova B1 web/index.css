@@ -1,0 +1,51 @@
+html{
+    color: black;
+}
+nav{
+    text-align: center;
+    background-color: brown;
+    padding: 2%;
+}
+main{
+    background-color: white;
+    padding: 9%;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.info-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.box{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid;
+    flex-direction: column;
+}
+.box img{
+    width: 100px;
+    height:100px;
+    margin-bottom: 10px;
+}
+.box h2{
+    color: black;
+    background-color: brown;
+}
+footer{
+    text-align: center;
+    padding: 1%;
+    background-color: brown;
+}
+h1{
+    color: brown;
+}
+header img{
+    width: 50%;
+    height: 50%;
+}
